@@ -10,9 +10,11 @@ int main()
 
     if (n > 10)
         printf("The number is higher than 10\n");
-    else
+    else if (n < 10)
         printf("The number is lower than 10\n");
-    
+    else if (n == 10)
+        printf("The number is equal to 10\n");
+   
     system("pause");
     return 0;
 
